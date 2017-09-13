@@ -1,0 +1,163 @@
+
+/*nav, label {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: middle;
+}
+*/
+.expandmenu-checkbox-invisible {
+  height: 1px;
+  left: -999px;
+  position: absolute;
+  top: -999px;
+  visibility: hidden;
+  width: 1px;
+}
+
+.expandmenu-side {
+  color: #fff;
+  /*background: rgba(0,0,0,0.8);*/
+  magin: 0;
+  padding: 0;
+  background: #0066ff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  /*padding: 4px;*/
+  /*padding: 0 0 8px 0;*/
+  position: fixed;
+  transition: all .3s;
+  border-radius: 4px;
+  z-index: 100002;
+}
+.expandmenu-side a:focus{
+  outline: none;
+}
+
+.expandmenu-labeltext{
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  /*-moz-transform: translateY(-2px);*/
+  /*transform: translateY(-2px);*/
+  /*display: inline-block;*/
+  margin-left: 4px;
+}
+
+.expandmenu-list {
+  height: 0%;
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  transition: all .3s;
+}
+.expandmenu-list .expandmenu-text{
+  display: inline-block;
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+.expandmenu-list i{
+  display: inline-block;
+  padding-right: 10px;
+}
+.expandmenu-list a {
+  /*border-bottom: 1px solid #eee;*/
+  font-size: 1.1em;
+  color: #fff;
+  display: block;
+  padding: 12px 18px;
+  text-decoration: none;
+  -webkit-transition : 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+  -moz-transition : 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+  transition : 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+  /*border-radius: 4px;*/
+}
+.expandmenu-list a:hover {
+  /*background: rgba(0, 0, 0, 0.6);*/
+  color: #333;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.expandmenu-label {
+  font-size: 12px;
+  /*-moz-transform: translateX(1px);*/
+  /*transform: translateY(-4px);*/
+  display: inline-block;
+  /*width: 480px;*/
+  width: 100%;
+  text-align: center;
+  height: 24px;
+  margin: 0;
+  padding: 6px 0;
+  cursor: pointer;
+  /*margin-left: 4px;*/
+}
+
+#expandmenu-checkbox:checked + .expandmenu-side {
+  /*position: fixed;*/
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+  /*left: 0;*/
+  /*top: 0;*/
+  /*bottom: 0;*/
+  /*width: 200px;*/
+  margin: 0 auto;
+  transition: all .3s;
+}
+#expandmenu-checkbox:checked + .expandmenu-side .expandmenu-labeltext {
+  display: none;
+}
+#expandmenu-checkbox:checked + .expandmenu-side .expandmenu-list {
+  height: 100%;
+  /*width: 60%;*/
+  margin: 0 auto;
+  /*margin-top: 8%;*/
+  margin-top: 48px;
+  /*margin-left: 20%;*/
+}
+#expandmenu-checkbox:checked + .expandmenu-side .expandmenu-label {
+  color: transparent;
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  width: 20px;
+}
+#expandmenu-checkbox:checked + .expandmenu-side .expandmenu-label:hover {
+  /*background: #eee;*/
+  /*border-radius: 4px;*/
+}
+
+/*#expandmenu-checkbox:checked + .expandmenu-side .expandmenu-label::before {
+  color: #FFF;
+  font-family: FontAwesome;
+  font-size: 24px;
+  font-weight: normal;
+  content: "\f00d";
+  line-height: 20px;
+  position: absolute;
+  top: 20px;
+  right: 28px;
+}
+*/
+#expandmenu-checkbox:checked + .expandmenu-side .expandmenu-label::after {
+  color: #FFF;
+  font-family: FontAwesome;
+  font-size: 24px;
+  font-weight: normal;
+  content: "\f00d";
+  line-height: 20px;
+  position: absolute;
+  top: 20px;
+  /*right: 20px;*/
+  left: 20px;
+}
+

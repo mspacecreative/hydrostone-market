@@ -1,0 +1,13 @@
+/* left */
+.expandmenu-side {
+  top: 20px;
+  left: 20px;
+}
+
+#expandmenu-checkbox:checked + .expandmenu-side {
+  width: 360px;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+

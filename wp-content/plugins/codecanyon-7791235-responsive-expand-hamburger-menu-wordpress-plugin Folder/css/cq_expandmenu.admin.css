@@ -1,0 +1,193 @@
+ul, li{
+	margin: 0;
+	padding: 0;
+}
+
+.wrap{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 200px;
+	position: relative;
+}
+
+.cq-expandmenu-wrap{
+	width: 98%;
+}
+.cq-expandmenu-wrap a:focus{
+	outline: none;
+}
+
+.cq-expandmenu-wrap h4{
+	margin: 4px 0 0 0;
+}
+.cq-expandmenu-wrap .cq-expandmenu-item-title{
+	padding-bottom: 12px;
+}
+.cq-expandmenu-wrap .cq-expandmenu-setting-title{
+	margin-top: 24px;
+	margin-bottom: 12px;
+}
+.cq-expandmenu-wrap .cq-expandmenu-setting-container{
+	margin: 0;
+	padding: 0;
+}
+.cq-expandmenu-setting-container{
+	margin: 0;
+	padding: 0;
+	background: #FFF;
+	border-radius: 4px;
+	margin-top: 4px;
+}
+.cq-expandmenu-setting-container select{
+	height: 24px;
+	margin-left: 6px;
+	padding: 2px 4px 0 4px;
+}
+.cq-expandmenu-setting-container .cq-expandmenu-checkbox{
+	margin-left: 6px;
+	padding: 2px 4px 0 4px;
+}
+
+.cq-expandmenu-setting-container input{
+	padding: 4px;
+}
+.cq-expandmenu-setting-container a:focus, .cq-expandmenu-setting-container select:focus, .cq-expandmenu-setting-container input:focus{
+	outline: none;
+}
+.cq-expandmenu-wrap .content-item{
+	padding: 12px;
+	/*background: #FFF;*/
+	border-radius: 4px;
+	line-height: 120%;
+	position: relative;
+	margin-top: 6px;
+}
+.cq-expandmenu-wrap .content-item input{
+	padding: 6px;
+}
+.cq-expandmenu-wrap .setting-item{
+	/*width: 98%;*/
+	display: inline-block;
+	margin-top: 12px;
+	margin-left: 12px;
+	margin-bottom: 12px;
+}
+.cq-expandmenu-wrap .setting-item-label{
+	display: inline-block;
+	width: 200px;
+}
+
+.cq-expandmenu-wrap img.preview{
+	position: absolute;
+	z-index: 1;
+	right: 30px;
+	top: 20px;
+	width: 80px;
+}
+.cq-expandmenu-wrap a.upload-image{
+	position: relative;
+	z-index: 2;
+}
+
+.cq-expandmenu-wrap input.item-text{
+	position: relative;
+	z-index: 2;
+	width: 80%;
+}
+.cq-expandmenu-wrap input.tiny-text{
+	position: relative;
+	margin-top: 8px;
+	margin-left: 2px;
+	margin-right: 8px;
+	z-index: 2;
+	width: 140px;
+}
+.cq-expandmenu-wrap strong{
+	border-radius: 2px;
+	background-color: #FFF;
+	color: #333;
+	padding: 2px 6px 3px 6px;
+}
+.cq-expandmenu-wrap .text-block-label{
+	margin-left: 24px;
+}
+.cq-expandmenu-wrap input.large-text{
+	position: relative;
+	margin-top: 8px;
+	margin-left: 2px;
+	margin-right: 8px;
+	z-index: 2;
+	width: 40%;
+}
+
+.cq-expandmenu-wrap input.small-text{
+	position: relative;
+	margin-top: 8px;
+	margin-left: 2px;
+	margin-right: 8px;
+	z-index: 2;
+	width: 20%;
+}
+
+.cq-expandmenu-wrap input.tiny-text{
+	position: relative;
+	margin-top: 8px;
+	margin-left: 2px;
+	margin-right: 8px;
+	z-index: 2;
+	width: 12%;
+}
+
+
+.cq-expandmenu-wrap input.smallest-text{
+	position: relative;
+	margin-top: 8px;
+	margin-left: 2px;
+	margin-right: 8px;
+	z-index: 2;
+	/*width: 12%;*/
+	width: 42px;
+}
+.cq-expandmenu-wrap .cq-expandmenu-checkbox{
+	margin-right: 12px;
+}
+
+.cq-expandmenu-wrap .cq-expandmenu-textblock{
+	height: 80px;
+}
+
+
+.cq-expandmenu-wrap .remove-item{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../img/remove.png) 0 0 no-repeat;
+	position: absolute;
+	right: 4px;
+	top: 28px;
+}
+
+.cq-expandmenu-wrap .wp-picker-container{
+	/*clear: both;*/
+	position: relative;
+	left: 2px;
+	top: 8px;
+	margin-right: 12px;
+	/*z-index: 24;*/
+}
+.cq-expandmenu-wrap .wp-picker-holder{
+	position: absolute;
+	z-index: 24;
+}
+.cq-expandmenu-wrap .cq-color-input, .cq-expandmenu-wrap .wp-picker-clear{
+	/*position: relative;*/
+	left: 0;
+	top: 4px;
+	/*z-index: 20;*/
+}
+.cq-expandmenu-wrap .cq-expandmenu-previewnote{
+	display: inline-block;
+	margin-top: 4px;
+}
+

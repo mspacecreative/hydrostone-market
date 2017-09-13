@@ -1,0 +1,16 @@
+/* right */
+.expandmenu-side {
+  top: 20px;
+  right: 20px;
+}
+.expandmenu-list {
+  /*text-align: left;*/
+}
+
+#expandmenu-checkbox:checked + .expandmenu-side {
+  position: fixed;
+  width: 320px;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
